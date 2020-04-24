@@ -1,3 +1,14 @@
+/*
+===============================================================
+  * Author: Manas P
+  * Title: Modern E-Commerce Webste Landing Page
+  * Page: style.css
+  * Responsive Website
+  * Colors Used: Black, White, Orange(With 100% & 25% Opacity)
+===============================================================
+*/
+
+/* To Remove Unwanted Margin */
 * {
   margin: 0px;
   padding: 0px;
@@ -10,7 +21,11 @@ html {
   overflow-x: hidden;
 }
 
-/* Landing Page */
+/*
+===============
+  Landing Page
+===============
+*/
 
 header {
   position: fixed;
@@ -91,36 +106,36 @@ nav {
   transition: all 0.5s ease;
 }
 
-/* Toggle */
+/* Toggle for Night Mode */
 .toggleNight {
   background: #fff;
-  border: 3px solid #000;
-  width: 50px;
-  height: 28px;
+  border: 0.15625vw solid #000;
+  width: 2.6041666666666665vw;
+  height: 1.4583333333333333vw;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 2.6041666666666665vw;
   transition: ease 0.7s;
 }
 
 .toggleNight:before {
   content: "";
   position: absolute;
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  margin-left: 2px;
+  width: 0.9375vw;
+  height: 0.9375vw;
+  margin-top: 0.10416666666666667vw;
+  margin-left: 0.10416666666666667vw;
   background: #ff4d00;
   border-radius: 100%;
   transition: ease 0.7s;
 }
 
 .toggleNight.active {
-  border: 3px solid #fff;
+  border: 0.15625vw solid #fff;
   background: #000;
 }
 
 .toggleNight.active:before {
-  margin-left: 24px;
+  margin-left: 1.25vw;
 }
 
 .header_flow img {
@@ -636,7 +651,11 @@ footer p {
   font-size: 1.0416666666666667vw;
 }
 
-/* Sign In Page */
+/*
+===============
+  Sign In Page
+===============
+*/
 
 .signContainer1 {
   height: auto;
@@ -787,7 +806,11 @@ footer p {
   text-decoration: none;
 }
 
-/* Sign Up Page */
+/*
+===============
+  Sign Up Page
+===============
+*/
 
 .signContainer1 .sectionup img:nth-child(1) {
   position: absolute;
