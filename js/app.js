@@ -40,3 +40,17 @@ nav_btn.addEventListener("click", () => {
   End of JavaScript for Navigation Bar for Mobile Responsive
 =============================================================
 */
+
+$(document).ready(function () {
+  $(".toggleNight").click(function () {
+    $(".toggleNight").toggleClass("active");
+    $("body").toggleClass("night");
+    //Change Logo
+    /* !!! Code Not Working */
+    /*var img1 = "./images/vector/logo.png",
+      img2 = "./images/vector/logoWhite.png";
+    var imgElement = document.getElementById("chImg");
+
+    imgElement.src = imgElement.src === img1 ? img2 : img1;*/
+  });
+});

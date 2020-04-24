@@ -91,6 +91,38 @@ nav {
   transition: all 0.5s ease;
 }
 
+/* Toggle */
+.toggleNight {
+  background: #fff;
+  border: 3px solid #000;
+  width: 50px;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: ease 0.7s;
+}
+
+.toggleNight:before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  margin-left: 2px;
+  background: #ff4d00;
+  border-radius: 100%;
+  transition: ease 0.7s;
+}
+
+.toggleNight.active {
+  border: 3px solid #fff;
+  background: #000;
+}
+
+.toggleNight.active:before {
+  margin-left: 24px;
+}
+
 .header_flow img {
   margin-top: 13vh;
   width: 100vw;

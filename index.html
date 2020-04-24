@@ -14,6 +14,7 @@
     <link rel="icon" href="./images/vector/title_logo.png" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/night.css" />
     <title>DAW Shop</title>
   </head>
   <body>
@@ -21,7 +22,7 @@
       <div class="nav_bar">
         <header>
           <div class="logo-container">
-            <img src="./images/vector/logo.png" />
+            <img src="./images/vector/logo.png" id="chImg" />
           </div>
           <nav>
             <ul class="nav-links">
@@ -39,6 +40,9 @@
                 <a class="nav-link" href="signIn.html"
                   ><button>Sign In</button></a
                 >
+              </li>
+              <li>
+                <div class="toggleNight"></div>
               </li>
             </ul>
           </nav>
@@ -316,6 +320,7 @@
         </footer>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

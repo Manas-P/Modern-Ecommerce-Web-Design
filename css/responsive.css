@@ -1,4 +1,8 @@
 @media screen and (max-width: 550px) {
+  html {
+    overflow-x: hidden;
+  }
+
   header {
     height: 85px;
   }
@@ -41,9 +45,14 @@
     z-index: 1;
   }
 
+  body.night .nav-links {
+    background-color: #000;
+    transition: 0.5s;
+  }
+
   .nav-links li {
     opacity: 1;
-    margin-top: -25px;
+    margin-top: -50px;
   }
 
   .nav_btn {

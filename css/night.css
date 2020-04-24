@@ -1,0 +1,46 @@
+/* Night Mode */
+body.night {
+  background: #000;
+  transition: ease 0.7s;
+}
+
+body.night header {
+  background: #000;
+  transition: ease 0.7s;
+}
+
+body.night .nav-link {
+  color: #fff;
+}
+
+body.night .container1 .section1 h1,
+body.night .container1 .section1 p,
+body.night .container2 .section2 h1,
+body.night .container2 .section2 p,
+body.night .container3 .items h2,
+body.night .container4 .section1 h1,
+body.night .container4 .section1 p,
+body.night .container5 .section2 h1,
+body.night .container5 .section2 p,
+body.night .container3 .itemse h2,
+body.night footer p {
+  color: #fff;
+  transition: ease 0.7s;
+}
+
+body.night .container1 .section1 img:nth-child(1),
+body.night .container1 .section1 img:nth-child(2),
+body.night .container2 .section2 img:nth-child(1),
+body.night .container2 .section2 img:nth-child(2),
+body.night .container3 .pattern img:nth-child(3),
+body.night .container3 .pattern img:nth-child(4),
+body.night .container3 .pattern img:nth-child(5),
+body.night .container4 .section1 img:nth-child(1),
+body.night .container4 .section1 img:nth-child(2),
+body.night .container5 .section2 img:nth-child(1),
+body.night .container5 .section2 img:nth-child(2),
+body.night .container7 .bubble1,
+body.night .container7 .bubble2 {
+  opacity: -1;
+  transition: ease 0.5s;
+}
