@@ -1,0 +1,597 @@
+@media screen and (max-width: 550px) {
+  header {
+    height: 85px;
+  }
+
+  body {
+    background-image: url("../images/vector_for_mobile/bgVector.png");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+  }
+
+  .logo-container img {
+    width: 125px;
+    height: auto;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .nav-link button {
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: -10px;
+    height: 90vh;
+    top: 85px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 1;
+  }
+
+  .nav-links li {
+    opacity: 1;
+    margin-top: -25px;
+  }
+
+  .nav_btn {
+    display: block;
+  }
+
+  .header_flow {
+    display: none;
+  }
+
+  .header_flow_res {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .header_flow_res img {
+    width: 100vw;
+  }
+
+  .container1 .sections {
+    grid-template-columns: 1fr;
+  }
+
+  .container1 .section1 h1 {
+    font-size: 35px;
+    line-height: 75px;
+    /*filter: drop-shadow(0px 1px 3px #000);*/
+  }
+
+  .container1 .section1 p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    /*filter: drop-shadow(0px 1px 2px #000);*/
+  }
+
+  .container1 .section1 img:nth-child(1) {
+    top: 175px;
+    left: 50px;
+  }
+
+  .container1 .section1 img:nth-child(2) {
+    top: 400px;
+    left: 275px;
+  }
+
+  .container1 .section2 img:nth-child(1) {
+    width: 325px;
+    height: 180px;
+    margin-top: 60px;
+  }
+
+  .container1 .section2 img:nth-child(2) {
+    display: none;
+  }
+
+  .container2 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .container2 .sections {
+    grid-template-columns: 1fr;
+  }
+
+  .container2 .section1 {
+    display: none;
+  }
+
+  .container2 .section1mob {
+    display: block;
+  }
+
+  .container2 .section1mob img {
+    height: 68vw;
+    margin-top: 0px;
+    margin-left: 55px;
+  }
+
+  .container2 .section2 h1 {
+    font-size: 35px;
+    line-height: 75px;
+    /*filter: drop-shadow(0px 1px 3px #000);*/
+  }
+
+  .container2 .section2 p {
+    font-size: 18px;
+    line-height: 30px;
+    /*filter: drop-shadow(0px 1px 2px #000);*/
+  }
+
+  .container2 .btn {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .container2 button {
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .container2 .section2 img:nth-child(1) {
+    right: 225px;
+    margin-top: 15px;
+  }
+
+  .container2 .section2 img:nth-child(2) {
+    margin-top: 230px;
+    right: 50px;
+  }
+
+  .container3 {
+    padding-top: 100px;
+  }
+
+  .container3 .pattern img:nth-child(1),
+  .container3 .pattern img:nth-child(2) {
+    display: none;
+  }
+
+  .container3 .pattern img:nth-child(3) {
+    margin-left: 200px;
+    margin-top: 500px;
+  }
+
+  .container3 .pattern img:nth-child(4) {
+    right: 150px;
+    margin-top: 300px;
+  }
+
+  .container3 .pattern img:nth-child(5) {
+    right: 175px;
+    margin-top: 100px;
+  }
+
+  .container3 .sections {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+  }
+
+  .container3 .items img {
+    border-radius: 100%;
+    height: 100px;
+    filter: drop-shadow(0px 0.052083333333333336vw 0.2604166666666667vw #000);
+  }
+
+  .container3 .items h2 {
+    font-size: 18px;
+  }
+
+  .container4 {
+    padding-top: 70px;
+  }
+
+  .container4 .sections {
+    grid-template-columns: 1fr;
+  }
+
+  .container4 .section1 img:nth-child(1) {
+    left: 70px;
+    margin-top: 5px;
+  }
+
+  .container4 .section1 img:nth-child(2) {
+    left: 250px;
+    margin-top: 160px;
+  }
+
+  .container4 .section1 h1 {
+    font-size: 35px;
+    line-height: 75px;
+    /*filter: drop-shadow(0px 1px 3px #000);*/
+  }
+
+  .container4 .section1 p {
+    font-size: 18px;
+    line-height: 30px;
+    /*filter: drop-shadow(0px 1px 2px #000);*/
+  }
+
+  .container4 .btn {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .container4 button {
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .container4 .section2 img:nth-child(1) {
+    height: 225px;
+    margin-top: 9.895833333333334vw;
+    margin-left: 50px;
+  }
+
+  .container4 .section2 img:nth-child(2) {
+    display: none;
+  }
+
+  .container5 {
+    padding-top: 75px;
+  }
+
+  .container5 .sections {
+    grid-template-columns: 1fr;
+  }
+
+  .container5 .section1 img:nth-child(1),
+  .container5 .section1 img:nth-child(2) {
+    display: none;
+  }
+
+  .container5 .section1mob {
+    display: block;
+  }
+
+  .container5 .section1mob img {
+    height: 60vw;
+    margin-top: 30px;
+    margin-left: 55px;
+  }
+
+  .container5 .section2 img:nth-child(2) {
+    right: 275px;
+    margin-top: 210px;
+  }
+
+  .container5 .section2 h1 {
+    font-size: 30px;
+    line-height: 75px;
+    /*filter: drop-shadow(0px 1px 3px #000);*/
+  }
+
+  .container5 .section2 p {
+    font-size: 18px;
+    line-height: 30px;
+    /*filter: drop-shadow(0px 1px 2px #000);*/
+  }
+
+  .container5 .btn {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .container5 button {
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .container3 .itemse img {
+    height: 100px;
+    filter: drop-shadow(0px 0.052083333333333336vw 0.2604166666666667vw #000);
+  }
+
+  .container3 .itemse h2 {
+    font-size: 18px;
+  }
+
+  .container7 {
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .container7 h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .container7 .box {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+  }
+
+  .avtr1 {
+    height: 60px;
+  }
+
+  .avtr2 {
+    height: 80px;
+  }
+
+  .avtr3 {
+    height: 60px;
+  }
+
+  .final_container .lastPatt {
+    display: none;
+  }
+
+  .logo_ft img {
+    width: 90px;
+    height: auto;
+    margin-left: -45px;
+  }
+
+  footer p {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /* Sign In Page */
+
+  .signContainer1 .sections {
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+  }
+
+  .signContainer1 .section1 img:nth-child(1) {
+    display: none;
+  }
+
+  .signContainer1 .section1 img:nth-child(2) {
+    height: 150px;
+    margin-top: -45px;
+    margin-left: 0px;
+  }
+
+  .signContainer1 .section2 .box {
+    width: 250px;
+    height: auto;
+    margin-top: 47%;
+    margin-left: 30%;
+    transform: translate(-20%, -50%);
+    margin-bottom: 3.90625vw;
+    background: #fff;
+    padding: 30px 40px 30px 40px;
+  }
+
+  .signContainer1 .section2 h1 {
+    font-size: 30px;
+  }
+
+  .signContainer1 .section2 input[type="submit"] {
+    border-radius: 50px;
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 160px;
+  }
+
+  .signContainer1 .section2 .form-group1 {
+    width: 170px;
+    margin-top: 40px;
+  }
+
+  .signContainer1 .section2 .form-group2 {
+    width: 170px;
+    height: auto;
+    margin-top: 110px;
+  }
+
+  .signContainer1 .section2 .form-control {
+    height: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+  }
+
+  .signContainer1 .section2 label {
+    font-size: 18px;
+  }
+
+  .signContainer1 .section2 .form-control:focus + label,
+  .form-control:valid + label {
+    top: -20px;
+    padding-left: 0;
+    font-size: 15px;
+    color: #ff4d00;
+  }
+
+  .signContainer1 .section2 input:focus,
+  .signContainer1 .section2 input:valid {
+    border-bottom: 2px solid #ff4d00;
+  }
+
+  .signContainer1 .section2 p {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  /* Sign Up Page */
+
+  .signContainer1 .sectionup img:nth-child(1) {
+    display: none;
+  }
+
+  .signContainer1 .sectionup img:nth-child(2) {
+    height: 150px;
+    margin-top: -75px;
+    margin-left: 0px;
+  }
+
+  .info {
+    display: none;
+  }
+
+  .info2 {
+    display: block;
+    font-size: 15px;
+  }
+
+  .signContainer1 .sectionSignUp .box {
+    width: 250px;
+    height: auto;
+    margin-top: 50%;
+    margin-left: 30%;
+    transform: translate(-20%, -22%);
+    margin-bottom: 3.90625vw;
+    background: #fff;
+    padding: 30px 40px 30px 40px;
+  }
+
+  .signContainer1 .sectionSignUp h1 {
+    font-size: 30px;
+  }
+
+  .signContainer1 .sectionSignUp input[type="submit"] {
+    border-radius: 50px;
+    height: 35px;
+    width: 110px;
+    font-size: 20px;
+    margin-top: 680px;
+  }
+
+  .signContainer1 .sectionSignUp textarea {
+    width: 100%;
+    outline: none;
+    height: 60px;
+    border-bottom: 2px solid #000;
+  }
+
+  .signContainer1 .sectionSignUp .form-group1 {
+    width: 170px;
+    position: absolute;
+    margin-top: 40px;
+  }
+
+  .signContainer1 .sectionSignUp .form-group2 {
+    width: 170px;
+    position: absolute;
+    margin-top: 110px;
+  }
+  .signContainer1 .sectionSignUp .form-group3 {
+    width: 170px;
+    position: absolute;
+    margin-top: 190px;
+  }
+  .signContainer1 .sectionSignUp .form-group4 {
+    width: 170px;
+    position: absolute;
+    margin-top: 260px;
+  }
+  .signContainer1 .sectionSignUp .form-group5 {
+    width: 170px;
+    position: absolute;
+    margin-top: 330px;
+  }
+  .signContainer1 .sectionSignUp .form-group6 {
+    width: 170px;
+    position: absolute;
+    margin-top: 400px;
+  }
+  .signContainer1 .sectionSignUp .form-group7 {
+    width: 170px;
+    position: absolute;
+    margin-top: 470px;
+  }
+  .signContainer1 .sectionSignUp .form-group8 {
+    width: 170px;
+    position: absolute;
+    margin-top: 540px;
+  }
+  .signContainer1 .sectionSignUp .form-group9 {
+    width: 170px;
+    position: absolute;
+    margin-top: 610px;
+  }
+
+  .signContainer1 .sectionSignUp .form-group3 label {
+    top: -10px;
+    padding-left: 0;
+    font-size: 18px;
+    color: #7d7d7d;
+  }
+
+  .signContainer1 .sectionSignUp .form-control {
+    height: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+  }
+
+  .signContainer1 .sectionSignUp .form-group5 .form-control {
+    font-size: 11px;
+  }
+
+  .signContainer1 .sectionSignUp label {
+    position: absolute;
+    top: -0.5208333333333334vw;
+    left: 0;
+    font-size: 15px;
+    line-height: 2.6041666666666665vw;
+    color: #7d7d7d;
+    pointer-events: none;
+    transition: 0.7s ease;
+  }
+
+  .signContainer1 .sectionSignUp .form-control:focus + label,
+  .form-control:valid + label {
+    top: -20px;
+    padding-left: 0;
+    font-size: 15px;
+    color: #ff4d00;
+  }
+
+  .signContainer1 .sectionSignUp input:focus,
+  .signContainer1 .sectionSignUp input:valid,
+  .signContainer1 .sectionSignUp textarea:focus,
+  .signContainer1 .sectionSignUp textarea:valid {
+    border-bottom: 2px solid #ff4d00;
+  }
+}
+
+/* Responsive Navigation Button Animation */
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(45deg) translate(0px, 12.5px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(-45deg) translate(0px, -12.5px);
+}

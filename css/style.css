@@ -76,9 +76,28 @@ nav {
   color: #fff;
 }
 
+.nav_btn {
+  display: none;
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav_btn div {
+  width: 30px;
+  height: 2px;
+  background-color: #ff4d00;
+  margin: 7px;
+  transition: all 0.5s ease;
+}
+
 .header_flow img {
   margin-top: 13vh;
   width: 100vw;
+}
+
+.header_flow_res {
+  display: none;
 }
 
 .container1 {
@@ -159,6 +178,10 @@ nav {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   height: auto;
+}
+
+.container2 .section1mob {
+  display: none;
 }
 
 .container2 .section1 img:nth-child(1) {
@@ -409,6 +432,10 @@ nav {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   height: auto;
+}
+
+.container5 .section1mob {
+  display: none;
 }
 
 .container5 .section1 img:nth-child(1) {
@@ -746,7 +773,12 @@ footer p {
 }
 
 .info {
+  display: block;
   font-size: 1.3020833333333333vw;
+}
+
+.info2 {
+  display: none;
 }
 
 .signContainer1 .sectionSignUp .box {
