@@ -3,6 +3,26 @@
     overflow-x: hidden;
   }
 
+  .preloader {
+    top: 0px;
+  }
+
+  .preloader_icon img {
+    height: 50px;
+  }
+
+  .preloader_logo img {
+    height: 70px;
+  }
+
+  .preloader h1 {
+    font-size: 20px;
+  }
+
+  .logo-container {
+    flex: 1;
+  }
+
   header {
     height: 85px;
   }

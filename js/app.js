@@ -54,3 +54,10 @@ $(document).ready(function () {
     imgElement.src = imgElement.src === img1 ? img2 : img1;*/
   });
 });
+
+// Preload
+
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preloader");
+  preload.classList.add("preload_finish");
+});
