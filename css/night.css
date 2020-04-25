@@ -51,3 +51,8 @@ body.night .containerQuantity input {
   border: 2px solid #fff;
   transition: ease 0.5s;
 }
+
+body.night .price {
+  color: #ff4d00;
+  transition: ease 0.5s;
+}

@@ -267,6 +267,12 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   }
 
+  .price {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
   .quantityBtn input[type="submit"] {
     margin-top: 20px;
     border-radius: 50px;

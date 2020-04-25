@@ -462,6 +462,13 @@ nav {
   color: #000;
 }
 
+.price {
+  color: #000;
+  margin-top: 1.0416666666666667vw;
+  font-size: 1.0416666666666667vw;
+  font-weight: bold;
+}
+
 .quantityBtn input[type="submit"] {
   margin-top: 1.0416666666666667vw;
   border-radius: 2.6041666666666665vw;
