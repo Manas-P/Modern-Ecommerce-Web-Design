@@ -40,6 +40,9 @@
                   ><button>Sign In</button></a
                 >
               </li>
+              <li>
+                <div class="toggleNight"></div>
+              </li>
             </ul>
           </nav>
           <div class="nav_btn">
@@ -75,49 +78,58 @@
           <div class="sectionSignUp">
             <div class="box">
               <h1>SIGN UP</h1>
-              <form>
+              <form id="form_reg">
                 <div class="form-group1">
-                  <input type="text" class="form-control" required />
+                  <input type="text" id="form_name" class="form-control" required />
                   <label>Enter Your Name</label>
+                  <span class="error_form" id="error_name"></span>
                 </div>
 
                 <div class="form-group2">
-                  <input type="mail" class="form-control" required />
+                  <input type="mail" id="form_mail" class="form-control" required />
                   <label>Enter Mail ID</label>
+                  <span class="error_form" id="error_mail"></span>
                 </div>
 
                 <div class="form-group3">
-                  <input type="date" class="form-control" required />
+                  <input type="date" id="form_dob" class="form-control" required />
                   <label>Date of Birth</label>
+                  <span class="error_form" id="error_dob"></span>
                 </div>
 
                 <div class="form-group4">
-                  <textarea class="form-control" required></textarea>
+                  <textarea class="form-control" id="form_address" required></textarea>
                   <label>Enter Address</label>
+                  <span class="error_form" id="error_address"></span>
                 </div>
 
                 <div class="form-group5">
-                  <input type="file" class="form-control" required />
+                  <input type="file" id="form_file" class="form-control" required />
+                  <span class="error_form" id="error_file"></span>
                 </div>
 
                 <div class="form-group6">
-                  <input type="number" class="form-control" required />
+                  <input type="number" id="form_ph" class="form-control" required />
                   <label>Enter Phone Number</label>
+                  <span class="error_form" id="error_ph"></span>
                 </div>
 
                 <div class="form-group7">
-                  <input type="text" class="form-control" required />
+                  <input type="text" id="form_uname" class="form-control" required />
                   <label>Enter Username</label>
+                  <span class="error_form" id="error_uname"></span>
                 </div>
 
                 <div class="form-group8">
-                  <input type="password" class="form-control" required />
+                  <input type="password" id="form_pass" class="form-control" required />
                   <label>Enter Password</label>
+                  <span class="error_form" id="error_pass"></span>
                 </div>
 
                 <div class="form-group9">
-                  <input type="password" class="form-control" required />
+                  <input type="password" id="form_repass" class="form-control" required />
                   <label>Re-Enter Password</label>
+                  <span class="error_form" id="error_repass"></span>
                 </div>
 
                 <div class="btnSub">
@@ -131,5 +143,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/formValidation.js"></script>
   </body>
 </html>

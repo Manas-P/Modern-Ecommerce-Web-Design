@@ -630,6 +630,10 @@
   .signContainer1 .sectionSignUp textarea:valid {
     border-bottom: 2px solid #ff4d00;
   }
+
+  .error_form {
+    font-size: 11px;
+  }
 }
 
 /* Responsive Navigation Button Animation */

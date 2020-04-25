@@ -864,7 +864,7 @@ footer p {
 .signContainer1 .sectionup img:nth-child(1) {
   position: absolute;
   width: 47.2140625vw;
-  height: 80.72916666666667vw;
+  height: 81.5vw;
   left: -2.7604166666666665vw;
   top: 4.53125vw;
   z-index: -1;
@@ -1034,4 +1034,9 @@ footer p {
 .signContainer1 .sectionSignUp textarea:focus,
 .signContainer1 .sectionSignUp textarea:valid {
   border-bottom: 0.10416666666666667vw solid #ff4d00;
+}
+
+.error_form {
+  color: red;
+  font-size: 0.8333333333333334vw;
 }
