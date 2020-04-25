@@ -427,6 +427,64 @@ nav {
   flex-direction: column;
 }
 
+/* Quantity Box */
+
+.containerQuantity {
+  margin-top: 0.78125vw;
+}
+
+.containerQuantity input {
+  border: 0.15625vw solid #000;
+  outline: none;
+  padding: 0.5208333333333334vw;
+  border-radius: 0.78125vw;
+  font-size: 1.0416666666666667vw;
+  font-weight: bold;
+  margin: 0 0.78125vw !important;
+  box-shadow: 0 0.10416666666666667vw 0.2604166666666667vw rgba(0, 0, 0, 0.5);
+}
+
+.containerQuantity button {
+  background: #ffd2bf;
+  color: #000;
+  font-size: 1.3020833333333333vw;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 0.5208333333333334vw;
+  padding: 0px 0.78125vw;
+  box-shadow: 0 0.10416666666666667vw 0.2604166666666667vw rgba(0, 0, 0, 0.5);
+  transition: 0.7s;
+}
+
+.containerQuantity button:hover {
+  background: #ff4d00;
+  color: #000;
+}
+
+.quantityBtn input[type="submit"] {
+  margin-top: 1.0416666666666667vw;
+  border-radius: 2.6041666666666665vw;
+  border: none;
+  height: 2.0833333333333335vw;
+  width: 7.03125vw;
+  color: #000;
+  background: #ffd2bf;
+  font-size: 1.0416666666666667vw;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0.10416666666666667vw 0.2604166666666667vw rgba(0, 0, 0, 0.5);
+}
+
+.quantityBtn input[type="submit"]:hover {
+  color: #fff;
+  background: #ff4d00;
+  transition: ease 0.7s;
+}
+
+/* End of Quantity */
+
 .container4 {
   height: auto;
   padding-top: 5.208333333333333vw;
@@ -775,6 +833,7 @@ footer p {
   font-weight: bold;
   cursor: pointer;
   margin-top: 10.416666666666666vw;
+  outline: none;
 }
 
 .signContainer1 .section2 input[type="submit"]:hover {
@@ -929,6 +988,7 @@ footer p {
   font-weight: bold;
   cursor: pointer;
   margin-top: 46.875vw;
+  outline: none;
 }
 
 .signContainer1 .sectionSignUp input[type="submit"]:hover {

@@ -44,3 +44,10 @@ body.night .container7 .bubble2 {
   opacity: -1;
   transition: ease 0.5s;
 }
+
+body.night .containerQuantity input {
+  background: #000;
+  color: #ff4d00;
+  border: 2px solid #fff;
+  transition: ease 0.5s;
+}

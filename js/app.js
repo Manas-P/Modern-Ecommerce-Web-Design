@@ -61,3 +61,16 @@ window.addEventListener("load", () => {
   const preload = document.querySelector(".preloader");
   preload.classList.add("preload_finish");
 });
+
+/*
+===========
+  Quantity
+===========
+*/
+$(function () {
+  $('input[type="number"]').niceNumber();
+});
+
+function addToCart() {
+  alert("Item Added to Cart");
+}
