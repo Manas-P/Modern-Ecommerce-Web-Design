@@ -97,6 +97,7 @@ header {
   width: 11.458333333333334vw;
   height: 4.869791666666667vw;
   margin-left: 5.729166666666667vw;
+  z-index: 10;
 }
 
 .logo-container {
@@ -145,6 +146,7 @@ nav {
   float: right;
   cursor: pointer;
   margin-right: 20px;
+  z-index: 10;
 }
 
 .nav_btn div {
