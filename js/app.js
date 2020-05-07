@@ -55,6 +55,22 @@ $(document).ready(function () {
   });
 });
 
+
+let img_id = "b";
+
+function imgCh() {
+  //Change Logo
+  const logo = document.getElementById("chImg");
+
+  if (img_id == "b") {
+    logo.src = "./images/vector/logoWhite.png";
+    img_id = "w";
+  } else {
+    logo.src = "./images/vector/logo.png";
+    img_id = "b";
+  }
+}
+
 // Preload
 
 window.addEventListener("load", () => {

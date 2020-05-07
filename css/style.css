@@ -98,6 +98,7 @@ header {
   height: 4.869791666666667vw;
   margin-left: 5.729166666666667vw;
   z-index: 10;
+  transition:ease 2s;
 }
 
 .logo-container {
